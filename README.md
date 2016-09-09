@@ -8,7 +8,7 @@ csvcard
 `csvcard` reads CSV data from `stdin` and outputs vCard data to `stdout`. It takes the path to a configuration file as its only argument.
 For example:
 ```
-$ cat /path/to/data.csv | go run main.go /path/to/config.json > /path/to/out.vcf
+$ go run main.go /path/to/config.json < /path/to/data.csv > /path/to/out.vcf
 ```
 
 ## Configuration
